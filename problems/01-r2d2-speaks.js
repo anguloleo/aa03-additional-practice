@@ -15,7 +15,21 @@
 */
 
 function r2d2Speaks(code) {
-    // Your code here 
+    
+    for (let num of code){
+        if(num === 0){
+            console.log("beep");
+            setTimeout(function(){
+                
+            }, 400); 
+        }
+        if(num === 1){
+            console.log("boop");
+            setTimeout(function(){
+                
+            }, 800); 
+        }
+    }
 }
 
 let code = [0, 1, 1, 0];
